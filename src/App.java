@@ -6,6 +6,7 @@ public class App {
         Controller controller = new Controller();
 
         Main main = new Main(controller);
+        System.out.println(controller.calculateRevenue());
         
     }
 }

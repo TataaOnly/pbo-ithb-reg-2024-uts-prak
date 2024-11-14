@@ -20,7 +20,7 @@ public class Controller {
             kereta.add(new Train(002, "Permata", Model.TrainType.STANDARD));    
         }
         
-        public double calculateRevenue(ClassType classType, TrainType trainType){ //asumsi data dummy di atas, adalah data yang terkumpul dalam satu hari
+        public static double calculateRevenue(ClassType classType, TrainType trainType){ //asumsi data dummy di atas, adalah data yang terkumpul dalam satu hari
             int i = 0;
             double total = 0;
             while (i < penumpang.size()) {
